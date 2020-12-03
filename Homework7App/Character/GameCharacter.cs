@@ -126,5 +126,22 @@ namespace Homework7App
             int Direction = rnd.Next(1, 4);
             return Direction;
         }
+        public int MakeDamage()
+        {
+            int Damage = (strength / 3) * (atack + 1);
+            return Damage
+        }
+        public int ReceaveDamage(int Damage)
+        {
+            health -= Damage - defence;
+            return health;
+        }
+        public int CheckDeth(int Health)
+        {
+            if (health <= 0)
+            {
+
+            }
+        }
     }
 }
