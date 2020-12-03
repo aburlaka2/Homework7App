@@ -5,7 +5,7 @@ using Homework7App.Equipment.Abstract;
 
 namespace Homework7App.Equipment.Abstract
 {
-    class Weapon:Item, IWearable
+    public abstract class Weapon:Item, IWearable
     {
         public int slot { get; set; }
         public string slotName { get; set; }
