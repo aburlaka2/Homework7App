@@ -9,11 +9,11 @@ namespace Homework7App.Character.Race
         public Human()
         {
             CharacterRace = "Human";
-            RaceHealth = 15;
-            RaceMana = 8;
-            RaceStreghth = 12;
-            RaceAgilty = 6;
-            RaceIntelect = 4;
+            RaceHealth = 5;
+            RaceMana = 5;
+            RaceStreghth = 5;
+            RaceAgilty = 3;
+            RaceIntelect = 3;
         }
     }
 }
