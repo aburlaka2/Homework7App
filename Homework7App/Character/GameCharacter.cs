@@ -129,7 +129,7 @@ namespace Homework7App
         public int MakeDamage()
         {
             int Damage = (strength / 3) * (atack + 1);
-            return Damage
+            return Damage;
         }
         public int ReceaveDamage(int Damage)
         {
