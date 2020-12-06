@@ -9,4 +9,8 @@
     <Compile Remove="Equipment\Weapons\Abstract\Weapon.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="GameMarket\PaymentProcess\" />
+  </ItemGroup>
+
 </Project>
