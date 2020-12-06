@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Homework7App.GameMarket.Market
+namespace Homework7App.Monetization.Market
 {
-    class MarketItem
+    public class MarketItem
     {
+        public int Price { get; set; }
+        public bool IsDiscount { get; } = true;
+        public int ItemType { get; }
     }
 }
